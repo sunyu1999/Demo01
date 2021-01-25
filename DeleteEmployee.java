@@ -22,8 +22,8 @@ public class DeleteEmployee  extends HttpServlet {
         resp.setCharacterEncoding("UTF-8");
         resp.setContentType("text/html");
         String id = req.getParameter("id");
-        employeeService.deleteEmployeeService(Integer.parseInt(id));
-        resp.sendRedirect("/all_employee");
+        
+        
 
     }
 
